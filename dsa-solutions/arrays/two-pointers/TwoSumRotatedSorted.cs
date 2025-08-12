@@ -8,13 +8,13 @@ namespace dsa_solutions.arrays.two_pointers
 {
     public class TwoSumRotatedSorted
     {
-        public static void Main(string[] args)
+        /*public static void Main(string[] args)
         {
             int[] nums = new int[] { 6, 7, 1, 2, 3, 4 };
             int target = 9;
             Console.Write("two sum sorted ");
             Console.Write(TwoSumRotatedSorted.TwoSum(nums, target));
-        }
+        }*/
 
         private static bool TwoSum(int[] nums, int target)
         {
