@@ -10,12 +10,12 @@ namespace dsa_solutions.arrays.two_pointers
     {
         // Time complexity ( o(n^2 * n)
 
-        public static void Main(string[] args)
+        /*public static void Main(string[] args)
         {
             string s = "abca";
 
             Console.Write(PalindromeSwapCheckBrute.IsPalindromeWithOneSwap(s));
-        }
+        }*/
 
         private static bool IsPalindromeWithOneSwap(string s)
         {
