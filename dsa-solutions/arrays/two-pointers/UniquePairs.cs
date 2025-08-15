@@ -12,7 +12,7 @@ namespace dsa_solutions.arrays.two_pointers
             Given an array with +ve and -ve numbers, return all unique pairs that sum to zero.
             Examples: [-3, -1, 0, 1, 3] → [[-3, 3], [-1, 1]]
          */
-        public static void Main(string[] args)
+        /*public static void Main(string[] args)
         {
             //int[] nums = new int[] { -3, -1, 0, 1, 3 };
             int[] nums = new int[] { 1, 1, -1 };
@@ -22,7 +22,7 @@ namespace dsa_solutions.arrays.two_pointers
             {
                 Console.WriteLine($"[{string.Join(", ", list)}]");
             }
-        }
+        }*/
 
         private static List<List<int>> ReturnPairs(int[] nums)
         {
