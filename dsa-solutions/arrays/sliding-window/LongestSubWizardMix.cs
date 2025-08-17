@@ -20,14 +20,14 @@ namespace dsa_solutions.arrays.sliding_window
 
     public class LongestSubWizardMix
     {
-        public static void Main(string[] args)
+        /*public static void Main(string[] args)
         {
             int[] arr = { 3, 1, 5, 2, 8 };
             int k = 3;
 
             Console.Write(LongestSubWizardMix.LongestSubBrute(arr, k));
             Console.Write(LongestSubWizardMix.LongestSubSW(arr, k));
-        }
+        }*/
 
         private static int LongestSubSW(int[] arr, int k)
         {
