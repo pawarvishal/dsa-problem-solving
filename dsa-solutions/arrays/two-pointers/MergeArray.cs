@@ -8,7 +8,7 @@ namespace dsa_solutions.arrays.two_pointers
 {
     public class MergeArray
     {
-        public static void Main(string[] args)
+        /*public static void Main(string[] args)
         {
             int[] num1 = { 1, 3, 5, 0, 0 };
             int[] num2 = { 2, 4 };
@@ -18,7 +18,7 @@ namespace dsa_solutions.arrays.two_pointers
             {
                 Console.Write(resultArr[i] + " ");
             }
-        }
+        }*/
 
         private static int[] MergeArr(int[] num1, int[] num2)
         {
