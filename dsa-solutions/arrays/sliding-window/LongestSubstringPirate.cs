@@ -10,14 +10,14 @@ namespace dsa_solutions.arrays.sliding_window
 
     public class LongestSubstringPirate
     {
-        public static void Main(string[] args)
+        /*public static void Main(string[] args)
         {
             //string s = "aabbbcccc";
             string s = "aabbccddd";
             int k = 2;
             Console.Write(LongestSubstringPirate.LongestSubstrBrute(s, k));
             Console.Write(LongestSubstringPirate.LongestSubstr(s, k));
-        }
+        }*/
 
         private static int LongestSubstr(string s, int k)
         {
